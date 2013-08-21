@@ -32,6 +32,9 @@
 		3C0C4AE817C212B8004BF8A3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AE517C212B8004BF8A3 /* 2.jpg */; };
 		3C0C4AE917C212B8004BF8A3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AE617C212B8004BF8A3 /* 3.jpg */; };
 		3C2B875417C2543200CE032C /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2B875317C2543200CE032C /* weather.png */; };
+		3C88058917C4966D004E82CC /* scenicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C88058817C4966D004E82CC /* scenicCell.m */; };
+		3C88059017C4A0C1004E82CC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C88058E17C4A0C1004E82CC /* DetailViewController.m */; };
+		3C88059117C4A0C1004E82CC /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C88058F17C4A0C1004E82CC /* DetailViewController.xib */; };
 		3CC2D2E217C3621700FD4D87 /* GetWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC2D2E117C3621700FD4D87 /* GetWeather.m */; };
 		3CC2D2FD17C362AF00FD4D87 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC2D2E517C362AF00FD4D87 /* NSObject+SBJson.m */; };
 		3CC2D2FE17C362AF00FD4D87 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC2D2E817C362AF00FD4D87 /* SBJsonParser.m */; };
@@ -85,6 +88,11 @@
 		3C0C4AE517C212B8004BF8A3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		3C0C4AE617C212B8004BF8A3 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		3C2B875317C2543200CE032C /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
+		3C88058717C4966D004E82CC /* scenicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenicCell.h; sourceTree = "<group>"; };
+		3C88058817C4966D004E82CC /* scenicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scenicCell.m; sourceTree = "<group>"; };
+		3C88058D17C4A0C1004E82CC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		3C88058E17C4A0C1004E82CC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		3C88058F17C4A0C1004E82CC /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = ../DetailViewController.xib; sourceTree = "<group>"; };
 		3CC2D2E017C3621700FD4D87 /* GetWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetWeather.h; sourceTree = "<group>"; };
 		3CC2D2E117C3621700FD4D87 /* GetWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetWeather.m; sourceTree = "<group>"; };
 		3CC2D2E417C362AF00FD4D87 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
@@ -159,6 +167,7 @@
 		3C0C4AA417C1F8ED004BF8A3 /* MeditationValley */ = {
 			isa = PBXGroup;
 			children = (
+				3C88059217C4B603004E82CC /* mode */,
 				3CC2D2E317C3627A00FD4D87 /* SBJSON */,
 				3C0C4AE117C21110004BF8A3 /* Resource */,
 				3C0C4ADB17C20591004BF8A3 /* Common */,
@@ -190,8 +199,6 @@
 				3C0C4AC117C1FCC3004BF8A3 /* WelcomeViewController.h */,
 				3C0C4AC217C1FCC3004BF8A3 /* WelcomeViewController.m */,
 				3C0C4AC317C1FCC3004BF8A3 /* WelcomeViewController.xib */,
-				3CC2D2E017C3621700FD4D87 /* GetWeather.h */,
-				3CC2D2E117C3621700FD4D87 /* GetWeather.m */,
 				3C0C4AC717C1FDB0004BF8A3 /* EverImpressViewController.h */,
 				3C0C4AC817C1FDB0004BF8A3 /* EverImpressViewController.m */,
 				3C0C4AC917C1FDB0004BF8A3 /* EverImpressViewController.xib */,
@@ -204,6 +211,9 @@
 				3C0C4AD617C1FDE7004BF8A3 /* HelpViewController.h */,
 				3C0C4AD717C1FDE7004BF8A3 /* HelpViewController.m */,
 				3C0C4AD817C1FDE7004BF8A3 /* HelpViewController.xib */,
+				3C88058D17C4A0C1004E82CC /* DetailViewController.h */,
+				3C88058E17C4A0C1004E82CC /* DetailViewController.m */,
+				3C88058F17C4A0C1004E82CC /* DetailViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -237,6 +247,17 @@
 				3C0C4AE217C2111E004BF8A3 /* logo_white.png */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		3C88059217C4B603004E82CC /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				3CC2D2E017C3621700FD4D87 /* GetWeather.h */,
+				3CC2D2E117C3621700FD4D87 /* GetWeather.m */,
+				3C88058717C4966D004E82CC /* scenicCell.h */,
+				3C88058817C4966D004E82CC /* scenicCell.m */,
+			);
+			name = mode;
 			sourceTree = "<group>";
 		};
 		3CC2D2E317C3627A00FD4D87 /* SBJSON */ = {
@@ -337,6 +358,7 @@
 				3C0C4AE917C212B8004BF8A3 /* 3.jpg in Resources */,
 				3C2B875417C2543200CE032C /* weather.png in Resources */,
 				3CC2D30A17C39B0800FD4D87 /* ScenicSpotInfo.plist in Resources */,
+				3C88059117C4A0C1004E82CC /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +390,8 @@
 				3CC2D30617C362AF00FD4D87 /* SBJsonTokeniser.m in Sources */,
 				3CC2D30717C362AF00FD4D87 /* SBJsonUTF8Stream.m in Sources */,
 				3CC2D30817C362AF00FD4D87 /* SBJsonWriter.m in Sources */,
+				3C88058917C4966D004E82CC /* scenicCell.m in Sources */,
+				3C88059017C4A0C1004E82CC /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

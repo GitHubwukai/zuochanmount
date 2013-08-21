@@ -8,7 +8,8 @@
 
 #import "WelcomeViewController.h"
 #import "PagePhotosView.h"
-
+#import "scenicCell.h"
+#import "DetailViewController.h"
 
 
 @interface WelcomeViewController () <PagePhotosDataSource, UITableViewDataSource, UITableViewDelegate>
@@ -22,6 +23,7 @@
 	PagePhotosView *pagePhotosView;
 	NSArray *picInfo;
 	NSArray *scenicName;
+	NSString *scenicLabelName;
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -134,12 +136,30 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+	scenicCell *cell = [[scenicCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
 	
-	NSString *string = [[NSString alloc] initWithString:[scenicName objectAtIndex:indexPath.row]];
-	cell.textLabel.text = string;
+	scenicLabelName = [[NSString alloc] initWithString:[scenicName objectAtIndex:indexPath.row]];
+	cell.nameLabel.text = scenicLabelName;
+	cell.imageView.image = [UIImage imageNamed:@"weather.png"];
+	
 	[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
 	return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	[self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+	DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+	//进入界面隐藏tabbar
+	detailViewController.hidesBottomBarWhenPushed = YES;
+	NSString *detaileTitle = [[NSString alloc] initWithString:[scenicName objectAtIndex:indexPath.row]];
+	[detailViewController setTitle:detaileTitle];
+	//设置image
+//	第几个cell对应第几个image
+	//设置text
+//	根据indexpath获取string并设置textView的string
+	
+	[self.navigationController pushViewController:detailViewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
