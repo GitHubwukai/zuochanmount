@@ -9,7 +9,9 @@
 #import "ToolsViewController.h"
 
 @interface ToolsViewController ()
-
+{
+	UITextView *textView;
+}
 @end
 
 @implementation ToolsViewController
@@ -28,6 +30,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+	textView = [[UITextView alloc] initWithFrame:self.view.frame];
+	[textView setBackgroundColor:[UIColor grayColor]];
+	[self.view addSubview:textView];
 }
 
 - (void)didReceiveMemoryWarning

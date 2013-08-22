@@ -13,6 +13,5 @@
 @property (nonatomic, strong) UIImageView *detailImage;
 @property (nonatomic, strong) UITextView *detailText;
 
-- (void)setData:(UIImage *)image andText:(NSString *)text;
 
 @end

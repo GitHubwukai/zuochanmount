@@ -2,6 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>HotScenicInfo</key>
+	<array>
+		<array>
+			<string>千古不朽谷</string>
+			<string>千年不朽谷关键字</string>
+			<string>IMG_0001</string>
+			<string>千年不朽谷简介</string>
+		</array>
+		<array>
+			<string>水锈石群</string>
+			<string>水锈石关键字</string>
+			<string>IMG_0001</string>
+			<string>水锈石简介</string>
+		</array>
+		<array>
+			<string>绝壁飞涯</string>
+			<string>绝壁飞涯关键字</string>
+			<string>IMG_0001</string>
+			<string>绝壁飞涯简介</string>
+		</array>
+		<array>
+			<string>楚长城</string>
+			<string>楚长城关键字</string>
+			<string>IMG_0001</string>
+			<string>楚长城介绍</string>
+		</array>
+		<array>
+			<string>通天洞</string>
+			<string>通天洞关键字</string>
+			<string>IMG_0001</string>
+			<string>通天洞简介</string>
+		</array>
+		<array>
+			<string>天池</string>
+			<string>天池关键字</string>
+			<string>IMG_0001</string>
+			<string>天池简介</string>
+		</array>
+		<array>
+			<string>涌泉</string>
+			<string>涌泉关键字</string>
+			<string>IMG_0001</string>
+			<string>涌泉简介</string>
+		</array>
+		<array>
+			<string>瀑布</string>
+			<string>瀑布关键字</string>
+			<string>IMG_0001</string>
+			<string>瀑布简介</string>
+		</array>
+	</array>
 	<key>ScenicName</key>
 	<array>
 		<string>突兀森郁的大峡谷</string>

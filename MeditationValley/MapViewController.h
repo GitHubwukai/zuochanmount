@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NAMapView.h"
 
 @interface MapViewController : UIViewController
-
+{
+	IBOutlet NAMapView *mapView;
+}
+@property (nonatomic, strong) IBOutlet NAMapView *mapView;
 @end
