@@ -10,7 +10,8 @@
 #import "PagePhotosView.h"
 #import "scenicCell.h"
 #import "DetailViewController.h"
-
+#import "UIViewController+SliderViewController.h"
+#import "WeatherViewController.h"
 
 @interface WelcomeViewController () <PagePhotosDataSource, UITableViewDataSource, UITableViewDelegate>
 
@@ -51,7 +52,7 @@
 	[weatherButtonView addSubview:homeButton];
 	
 	UIBarButtonItem *weatherButtonItem = [[UIBarButtonItem alloc] initWithCustomView:weatherButtonView];
-	self.navigationItem.rightBarButtonItem = weatherButtonItem;
+	self.navigationItem.leftBarButtonItem = weatherButtonItem;
 	
 	//获取tableview的数据
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"ScenicSpotInfo" ofType:@"plist"];
@@ -81,8 +82,8 @@
 
 - (void)weatherAlert
 {
-	UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"weather" message:@"天气预报" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-	[alert show];
+	WeatherViewController *weatherView = [[WeatherViewController alloc] initWithNibName:@"WeatherViewController" bundle:nil];
+	[self presentSliderViewController:weatherView animationType:SliderViewAnimationSliderL2R];
 }
 
 #pragma mark - pagePhotosViewDelegate

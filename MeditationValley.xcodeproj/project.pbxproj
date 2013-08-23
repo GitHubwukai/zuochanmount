@@ -55,6 +55,10 @@
 		3C12984417C67A0D001C223C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C12984317C67A0D001C223C /* QuartzCore.framework */; };
 		3C12984917C67E5B001C223C /* australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C12984817C67E5B001C223C /* australia.png */; };
 		3C12984B17C680DD001C223C /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C12984A17C680DD001C223C /* map.jpg */; };
+		3C12988D17C79B0B001C223C /* SliderBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12988A17C79B0B001C223C /* SliderBackgroundView.m */; };
+		3C12988E17C79B0B001C223C /* UIViewController+SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12988C17C79B0B001C223C /* UIViewController+SliderViewController.m */; };
+		3C12989217C79BE8001C223C /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12989017C79BE7001C223C /* WeatherViewController.m */; };
+		3C12989317C79BE8001C223C /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C12989117C79BE7001C223C /* WeatherViewController.xib */; };
 		3C2B875417C2543200CE032C /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2B875317C2543200CE032C /* weather.png */; };
 		3C88058917C4966D004E82CC /* scenicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C88058817C4966D004E82CC /* scenicCell.m */; };
 		3C88059017C4A0C1004E82CC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C88058E17C4A0C1004E82CC /* DetailViewController.m */; };
@@ -141,6 +145,13 @@
 		3C12984317C67A0D001C223C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3C12984817C67E5B001C223C /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
 		3C12984A17C680DD001C223C /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
+		3C12988917C79B0B001C223C /* SliderBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderBackgroundView.h; sourceTree = "<group>"; };
+		3C12988A17C79B0B001C223C /* SliderBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderBackgroundView.m; sourceTree = "<group>"; };
+		3C12988B17C79B0B001C223C /* UIViewController+SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SliderViewController.h"; sourceTree = "<group>"; };
+		3C12988C17C79B0B001C223C /* UIViewController+SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SliderViewController.m"; sourceTree = "<group>"; };
+		3C12988F17C79BE7001C223C /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		3C12989017C79BE7001C223C /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		3C12989117C79BE7001C223C /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
 		3C2B875317C2543200CE032C /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
 		3C88058717C4966D004E82CC /* scenicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenicCell.h; sourceTree = "<group>"; };
 		3C88058817C4966D004E82CC /* scenicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scenicCell.m; sourceTree = "<group>"; };
@@ -256,6 +267,9 @@
 				3C0C4AC117C1FCC3004BF8A3 /* WelcomeViewController.h */,
 				3C0C4AC217C1FCC3004BF8A3 /* WelcomeViewController.m */,
 				3C0C4AC317C1FCC3004BF8A3 /* WelcomeViewController.xib */,
+				3C12988F17C79BE7001C223C /* WeatherViewController.h */,
+				3C12989017C79BE7001C223C /* WeatherViewController.m */,
+				3C12989117C79BE7001C223C /* WeatherViewController.xib */,
 				3C0C4AC717C1FDB0004BF8A3 /* EverImpressViewController.h */,
 				3C0C4AC817C1FDB0004BF8A3 /* EverImpressViewController.m */,
 				3C0C4AC917C1FDB0004BF8A3 /* EverImpressViewController.xib */,
@@ -278,6 +292,7 @@
 		3C0C4ADB17C20591004BF8A3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3C12988817C79AD6001C223C /* SliderMenu */,
 				3C0C4ADC17C20659004BF8A3 /* PagePhotosView */,
 			);
 			name = Common;
@@ -336,6 +351,17 @@
 				3C12983017C679ED001C223C /* pinRed@2x.png */,
 			);
 			name = NAMapKit;
+			sourceTree = "<group>";
+		};
+		3C12988817C79AD6001C223C /* SliderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3C12988917C79B0B001C223C /* SliderBackgroundView.h */,
+				3C12988A17C79B0B001C223C /* SliderBackgroundView.m */,
+				3C12988B17C79B0B001C223C /* UIViewController+SliderViewController.h */,
+				3C12988C17C79B0B001C223C /* UIViewController+SliderViewController.m */,
+			);
+			name = SliderMenu;
 			sourceTree = "<group>";
 		};
 		3C88059217C4B603004E82CC /* mode */ = {
@@ -470,6 +496,7 @@
 				3C12984217C679ED001C223C /* pinRed@2x.png in Resources */,
 				3C12984917C67E5B001C223C /* australia.png in Resources */,
 				3C12984B17C680DD001C223C /* map.jpg in Resources */,
+				3C12989317C79BE8001C223C /* WeatherViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +552,9 @@
 				3C12983A17C679ED001C223C /* NACallOutView.m in Sources */,
 				3C12983B17C679ED001C223C /* NAMapView.m in Sources */,
 				3C12983C17C679ED001C223C /* NAPinAnnotationView.m in Sources */,
+				3C12988D17C79B0B001C223C /* SliderBackgroundView.m in Sources */,
+				3C12988E17C79B0B001C223C /* UIViewController+SliderViewController.m in Sources */,
+				3C12989217C79BE8001C223C /* WeatherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
