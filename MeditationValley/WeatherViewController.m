@@ -20,7 +20,7 @@
     if (self) {
         // Custom initialization
 		[self.view setBounds:CGRectMake(0, 0, 120, 568)];
-		[self.view setBackgroundColor:[UIColor yellowColor]];
+		[self.view setBackgroundColor:[UIColor clearColor]];
     }
     return self;
 }

@@ -13,7 +13,7 @@
 	UIScrollView *scrollView;
 	UIPageControl *pageControl;
 	
-	id<PagePhotosDataSource> __weak dataSource;
+	id<PagePhotosDataSource> dataSource;
 	NSMutableArray *imageViews;
     int i;
 	
@@ -21,8 +21,8 @@
     BOOL pageControlUsed;
 }
 
-@property (nonatomic, weak) id<PagePhotosDataSource> dataSource;
-@property (nonatomic, strong) NSMutableArray *imageViews;
+@property (nonatomic, assign) id<PagePhotosDataSource> dataSource;
+@property (nonatomic, retain) NSMutableArray *imageViews;
 @property (nonatomic,assign)int i;
 
 - (IBAction)changePage:(id)sender;

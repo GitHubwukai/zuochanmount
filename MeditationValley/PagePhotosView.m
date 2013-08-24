@@ -42,6 +42,7 @@
 			[views addObject:[NSNull null]];
 		}
 		self.imageViews = views;
+		[views release];
 		
 		// a page is the width of the scroll view
 		scrollView.pagingEnabled = YES;
@@ -81,7 +82,7 @@
     //UIImageView *view = [imageViews objectAtIndex:page];
     //if ((NSNull *)view == [NSNull null]) {
 		UIImage *image = [dataSource imageAtIndex:page];
-        UIImageView *view = [[UIImageView alloc] initWithImage:image];
+        UIImageView *view = [[[UIImageView alloc] initWithImage:image]autorelease];
         [imageViews replaceObjectAtIndex:page withObject:view];
 		
     //}
@@ -154,5 +155,15 @@
 	// Set the boolean used when scrolls originate from the UIPageControl. See scrollViewDidScroll: above.
     pageControlUsed = YES;
 }
+
+
+
+
+- (void)dealloc {
+	[scrollView release];
+	[pageControl release];
+    [super dealloc];
+}
+
 
 @end

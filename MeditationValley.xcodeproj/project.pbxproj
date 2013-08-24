@@ -26,7 +26,6 @@
 		3C0C4AD517C1FDD9004BF8A3 /* ToolsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AD317C1FDD9004BF8A3 /* ToolsViewController.xib */; };
 		3C0C4AD917C1FDE7004BF8A3 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C4AD717C1FDE7004BF8A3 /* HelpViewController.m */; };
 		3C0C4ADA17C1FDE7004BF8A3 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AD817C1FDE7004BF8A3 /* HelpViewController.xib */; };
-		3C0C4AE017C206B0004BF8A3 /* PagePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C4ADF17C206B0004BF8A3 /* PagePhotosView.m */; };
 		3C0C4AE317C2111E004BF8A3 /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AE217C2111E004BF8A3 /* logo_white.png */; };
 		3C0C4AE717C212B8004BF8A3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AE417C212B8004BF8A3 /* 1.jpg */; };
 		3C0C4AE817C212B8004BF8A3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AE517C212B8004BF8A3 /* 2.jpg */; };
@@ -59,6 +58,7 @@
 		3C12988E17C79B0B001C223C /* UIViewController+SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12988C17C79B0B001C223C /* UIViewController+SliderViewController.m */; };
 		3C12989217C79BE8001C223C /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12989017C79BE7001C223C /* WeatherViewController.m */; };
 		3C12989317C79BE8001C223C /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C12989117C79BE7001C223C /* WeatherViewController.xib */; };
+		3C1298C817C8A4B3001C223C /* PagePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1298C717C8A4B3001C223C /* PagePhotosView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3C2B875417C2543200CE032C /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2B875317C2543200CE032C /* weather.png */; };
 		3C88058917C4966D004E82CC /* scenicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C88058817C4966D004E82CC /* scenicCell.m */; };
 		3C88059017C4A0C1004E82CC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C88058E17C4A0C1004E82CC /* DetailViewController.m */; };
@@ -108,9 +108,6 @@
 		3C0C4AD617C1FDE7004BF8A3 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
 		3C0C4AD717C1FDE7004BF8A3 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
 		3C0C4AD817C1FDE7004BF8A3 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
-		3C0C4ADD17C206B0004BF8A3 /* PagePhotosDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagePhotosDataSource.h; sourceTree = "<group>"; };
-		3C0C4ADE17C206B0004BF8A3 /* PagePhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagePhotosView.h; sourceTree = "<group>"; };
-		3C0C4ADF17C206B0004BF8A3 /* PagePhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagePhotosView.m; sourceTree = "<group>"; };
 		3C0C4AE217C2111E004BF8A3 /* logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_white.png; sourceTree = "<group>"; };
 		3C0C4AE417C212B8004BF8A3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		3C0C4AE517C212B8004BF8A3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -152,6 +149,9 @@
 		3C12988F17C79BE7001C223C /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
 		3C12989017C79BE7001C223C /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
 		3C12989117C79BE7001C223C /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		3C1298C517C8A4B3001C223C /* PagePhotosDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagePhotosDataSource.h; sourceTree = "<group>"; };
+		3C1298C617C8A4B3001C223C /* PagePhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagePhotosView.h; sourceTree = "<group>"; };
+		3C1298C717C8A4B3001C223C /* PagePhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagePhotosView.m; sourceTree = "<group>"; };
 		3C2B875317C2543200CE032C /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
 		3C88058717C4966D004E82CC /* scenicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenicCell.h; sourceTree = "<group>"; };
 		3C88058817C4966D004E82CC /* scenicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scenicCell.m; sourceTree = "<group>"; };
@@ -301,9 +301,9 @@
 		3C0C4ADC17C20659004BF8A3 /* PagePhotosView */ = {
 			isa = PBXGroup;
 			children = (
-				3C0C4ADD17C206B0004BF8A3 /* PagePhotosDataSource.h */,
-				3C0C4ADE17C206B0004BF8A3 /* PagePhotosView.h */,
-				3C0C4ADF17C206B0004BF8A3 /* PagePhotosView.m */,
+				3C1298C517C8A4B3001C223C /* PagePhotosDataSource.h */,
+				3C1298C617C8A4B3001C223C /* PagePhotosView.h */,
+				3C1298C717C8A4B3001C223C /* PagePhotosView.m */,
 			);
 			name = PagePhotosView;
 			sourceTree = "<group>";
@@ -530,7 +530,6 @@
 				3C0C4ACF17C1FDC7004BF8A3 /* MapViewController.m in Sources */,
 				3C0C4AD417C1FDD9004BF8A3 /* ToolsViewController.m in Sources */,
 				3C0C4AD917C1FDE7004BF8A3 /* HelpViewController.m in Sources */,
-				3C0C4AE017C206B0004BF8A3 /* PagePhotosView.m in Sources */,
 				3CC2D2E217C3621700FD4D87 /* GetWeather.m in Sources */,
 				3CC2D2FD17C362AF00FD4D87 /* NSObject+SBJson.m in Sources */,
 				3CC2D2FE17C362AF00FD4D87 /* SBJsonParser.m in Sources */,
@@ -555,6 +554,7 @@
 				3C12988D17C79B0B001C223C /* SliderBackgroundView.m in Sources */,
 				3C12988E17C79B0B001C223C /* UIViewController+SliderViewController.m in Sources */,
 				3C12989217C79BE8001C223C /* WeatherViewController.m in Sources */,
+				3C1298C817C8A4B3001C223C /* PagePhotosView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
