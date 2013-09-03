@@ -42,9 +42,9 @@
 	[smallImage setFrame:smallImageFrame];
 	smallImage.backgroundColor = [UIColor redColor];
 	
-	CGRect nameOneLabelFrame = CGRectMake(36, 12, 100, 18);
+	CGRect nameOneLabelFrame = CGRectMake(36, 12, self.frame.size.width, 18);
 	[nameOneLabel setFrame:nameOneLabelFrame];
-	[nameOneLabel setBackgroundColor:[UIColor darkGrayColor]];
+	[nameOneLabel setBackgroundColor:[UIColor whiteColor]];
 	
 	CGRect nameTwoLabelFrame = CGRectMake(36, 45, 100, 15);
 	[nameTwoLabel setFrame:nameTwoLabelFrame];

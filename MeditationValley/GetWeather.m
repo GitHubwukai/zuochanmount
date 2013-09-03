@@ -33,8 +33,8 @@ NSString *weatherAPI = @"http://www.weather.com.cn/data/cityinfo/101180701.html"
 {
 	NSURL *url = [NSURL URLWithString:weatherAPI];
 	NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-	NSURLConnection *connection = [[NSURLConnection alloc]
-								   initWithRequest:request delegate:self];
+//	NSURLConnection *connection = [[NSURLConnection alloc]
+//								   initWithRequest:request delegate:self];
 	
 }
 

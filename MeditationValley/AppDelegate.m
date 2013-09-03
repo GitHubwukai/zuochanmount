@@ -26,7 +26,7 @@
 													  initWithNibName:@"WelcomeViewController" bundle:nil];
 	UINavigationController *welecome = [[UINavigationController alloc]
 										initWithRootViewController:self.welcomeViewController];
-	welecome.navigationBar.tintColor = [UIColor colorWithRed:200.00f/255.0f green:0 blue:0 alpha:.9];
+	//welecome.navigationBar.tintColor = [UIColor colorWithRed:200.00f/255.0f green:0 blue:0 alpha:.9];
 	//2
 	self.everImpressViewController = [[EverImpressViewController alloc]
 															initWithNibName:@"EverImpressViewController" bundle:nil];

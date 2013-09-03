@@ -5,52 +5,46 @@
 	<key>HotScenicInfo</key>
 	<array>
 		<array>
-			<string>千古不朽谷</string>
-			<string>千年不朽谷关键字</string>
+			<string>瀑布</string>
+			<string>长、奇、灵‘秀</string>
 			<string>IMG_0001</string>
-			<string>千年不朽谷简介</string>
+			<string>瀑布简介</string>
 		</array>
 		<array>
-			<string>水锈石群</string>
-			<string>水锈石关键字</string>
+			<string>涌泉</string>
+			<string>大小各异，水味苦、消暑</string>
 			<string>IMG_0001</string>
-			<string>水锈石简介</string>
-		</array>
-		<array>
-			<string>绝壁飞涯</string>
-			<string>绝壁飞涯关键字</string>
-			<string>IMG_0001</string>
-			<string>绝壁飞涯简介</string>
-		</array>
-		<array>
-			<string>楚长城</string>
-			<string>楚长城关键字</string>
-			<string>IMG_0001</string>
-			<string>楚长城介绍</string>
-		</array>
-		<array>
-			<string>通天洞</string>
-			<string>通天洞关键字</string>
-			<string>IMG_0001</string>
-			<string>通天洞简介</string>
+			<string>涌泉石简介</string>
 		</array>
 		<array>
 			<string>天池</string>
-			<string>天池关键字</string>
+			<string>湖水清可见底，鱼虾群游</string>
 			<string>IMG_0001</string>
 			<string>天池简介</string>
 		</array>
 		<array>
-			<string>涌泉</string>
-			<string>涌泉关键字</string>
+			<string>通天洞</string>
+			<string>天然奇窟通九天，一生转运通天洞</string>
 			<string>IMG_0001</string>
-			<string>涌泉简介</string>
+			<string>通天洞介绍</string>
 		</array>
 		<array>
-			<string>瀑布</string>
-			<string>瀑布关键字</string>
+			<string>龙王泉</string>
+			<string>天越旱水越大，富含微量元素</string>
 			<string>IMG_0001</string>
-			<string>瀑布简介</string>
+			<string>龙王泉简介</string>
+		</array>
+		<array>
+			<string>楚长城</string>
+			<string>青龙山上古山寨 风雨千秋楚长城</string>
+			<string>IMG_0001</string>
+			<string>楚长城简介</string>
+		</array>
+		<array>
+			<string>绝壁飞涯</string>
+			<string>石壁陡峭，水锈石雄奇壮观</string>
+			<string>IMG_0001</string>
+			<string>绝壁飞涯简介</string>
 		</array>
 	</array>
 	<key>ScenicName</key>

@@ -30,6 +30,8 @@
 		3C0C4AE717C212B8004BF8A3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AE417C212B8004BF8A3 /* 1.jpg */; };
 		3C0C4AE817C212B8004BF8A3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AE517C212B8004BF8A3 /* 2.jpg */; };
 		3C0C4AE917C212B8004BF8A3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C4AE617C212B8004BF8A3 /* 3.jpg */; };
+		3C1209D917CC96AA009422BD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1209D817CC96AA009422BD /* Social.framework */; };
+		3C1209DC17CC9819009422BD /* FunActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1209DB17CC9819009422BD /* FunActivity.m */; };
 		3C12981417C5DB67001C223C /* HotScenicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12981317C5DB67001C223C /* HotScenicCell.m */; };
 		3C12981717C5DF36001C223C /* HotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12981617C5DF36001C223C /* HotData.m */; };
 		3C12981917C65A6D001C223C /* IMG_0001.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3C12981817C65A6D001C223C /* IMG_0001.JPG */; };
@@ -112,6 +114,9 @@
 		3C0C4AE417C212B8004BF8A3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		3C0C4AE517C212B8004BF8A3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		3C0C4AE617C212B8004BF8A3 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		3C1209D817CC96AA009422BD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3C1209DA17CC9819009422BD /* FunActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunActivity.h; sourceTree = "<group>"; };
+		3C1209DB17CC9819009422BD /* FunActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunActivity.m; sourceTree = "<group>"; };
 		3C12981217C5DB67001C223C /* HotScenicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotScenicCell.h; sourceTree = "<group>"; };
 		3C12981317C5DB67001C223C /* HotScenicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotScenicCell.m; sourceTree = "<group>"; };
 		3C12981517C5DF36001C223C /* HotData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotData.h; sourceTree = "<group>"; };
@@ -193,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1209D917CC96AA009422BD /* Social.framework in Frameworks */,
 				3C12984417C67A0D001C223C /* QuartzCore.framework in Frameworks */,
 				3C0C4A9F17C1F8ED004BF8A3 /* UIKit.framework in Frameworks */,
 				3C0C4AA117C1F8ED004BF8A3 /* Foundation.framework in Frameworks */,
@@ -206,6 +212,7 @@
 		3C0C4A9217C1F8ED004BF8A3 = {
 			isa = PBXGroup;
 			children = (
+				3C1209D817CC96AA009422BD /* Social.framework */,
 				3C0C4AA417C1F8ED004BF8A3 /* MeditationValley */,
 				3C0C4A9D17C1F8ED004BF8A3 /* Frameworks */,
 				3C0C4A9C17C1F8ED004BF8A3 /* Products */,
@@ -234,9 +241,7 @@
 		3C0C4AA417C1F8ED004BF8A3 /* MeditationValley */ = {
 			isa = PBXGroup;
 			children = (
-				3C12981A17C679AC001C223C /* NAMapKit */,
 				3C88059217C4B603004E82CC /* mode */,
-				3CC2D2E317C3627A00FD4D87 /* SBJSON */,
 				3C0C4AE117C21110004BF8A3 /* Resource */,
 				3C0C4ADB17C20591004BF8A3 /* Common */,
 				3C0C4AC617C1FCDE004BF8A3 /* ViewControllers */,
@@ -281,6 +286,8 @@
 				3C0C4AD317C1FDD9004BF8A3 /* ToolsViewController.xib */,
 				3C0C4AD617C1FDE7004BF8A3 /* HelpViewController.h */,
 				3C0C4AD717C1FDE7004BF8A3 /* HelpViewController.m */,
+				3C1209DA17CC9819009422BD /* FunActivity.h */,
+				3C1209DB17CC9819009422BD /* FunActivity.m */,
 				3C0C4AD817C1FDE7004BF8A3 /* HelpViewController.xib */,
 				3C88058D17C4A0C1004E82CC /* DetailViewController.h */,
 				3C88058E17C4A0C1004E82CC /* DetailViewController.m */,
@@ -292,6 +299,8 @@
 		3C0C4ADB17C20591004BF8A3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3CC2D2E317C3627A00FD4D87 /* SBJSON */,
+				3C12981A17C679AC001C223C /* NAMapKit */,
 				3C12988817C79AD6001C223C /* SliderMenu */,
 				3C0C4ADC17C20659004BF8A3 /* PagePhotosView */,
 			);
@@ -555,6 +564,7 @@
 				3C12988E17C79B0B001C223C /* UIViewController+SliderViewController.m in Sources */,
 				3C12989217C79BE8001C223C /* WeatherViewController.m in Sources */,
 				3C1298C817C8A4B3001C223C /* PagePhotosView.m in Sources */,
+				3C1209DC17CC9819009422BD /* FunActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +645,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeditationValley/MeditationValley-Prefix.pch";
 				INFOPLIST_FILE = "MeditationValley/MeditationValley-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -647,7 +659,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeditationValley/MeditationValley-Prefix.pch";
 				INFOPLIST_FILE = "MeditationValley/MeditationValley-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
