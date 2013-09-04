@@ -68,9 +68,13 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView
 		 cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	HotScenicCell *cell = [[HotScenicCell alloc]
+	static NSString *cellIdentifier = @"CEllIdentifier";
+	HotScenicCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+	if (cell == nil) {
+	cell = [[HotScenicCell alloc]
 							 initWithStyle:UITableViewCellStyleDefault
 							 reuseIdentifier:@"cell"];
+	}
 	[cell setAccessoryType:UITableViewCellAccessoryNone];
 	cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	

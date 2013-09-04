@@ -139,7 +139,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	scenicCell *cell = [[scenicCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+	static NSString *cellIdentifier = @"cell";
+	scenicCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+	if (cell == nil) {
+		cell = [[scenicCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+	}
+	
+//	scenicCell *cell = [[scenicCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
 	
 	scenicLabelName = [[NSString alloc] initWithString:[scenicName objectAtIndex:indexPath.row]];
 	cell.nameLabel.text = scenicLabelName;

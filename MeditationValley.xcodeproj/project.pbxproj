@@ -54,7 +54,6 @@
 		3C12984117C679ED001C223C /* pinRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C12982F17C679ED001C223C /* pinRed.png */; };
 		3C12984217C679ED001C223C /* pinRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C12983017C679ED001C223C /* pinRed@2x.png */; };
 		3C12984417C67A0D001C223C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C12984317C67A0D001C223C /* QuartzCore.framework */; };
-		3C12984917C67E5B001C223C /* australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C12984817C67E5B001C223C /* australia.png */; };
 		3C12984B17C680DD001C223C /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C12984A17C680DD001C223C /* map.jpg */; };
 		3C12988D17C79B0B001C223C /* SliderBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12988A17C79B0B001C223C /* SliderBackgroundView.m */; };
 		3C12988E17C79B0B001C223C /* UIViewController+SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C12988C17C79B0B001C223C /* UIViewController+SliderViewController.m */; };
@@ -145,7 +144,6 @@
 		3C12982F17C679ED001C223C /* pinRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinRed.png; sourceTree = "<group>"; };
 		3C12983017C679ED001C223C /* pinRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinRed@2x.png"; sourceTree = "<group>"; };
 		3C12984317C67A0D001C223C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		3C12984817C67E5B001C223C /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
 		3C12984A17C680DD001C223C /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
 		3C12988917C79B0B001C223C /* SliderBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderBackgroundView.h; sourceTree = "<group>"; };
 		3C12988A17C79B0B001C223C /* SliderBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderBackgroundView.m; sourceTree = "<group>"; };
@@ -321,7 +319,6 @@
 			isa = PBXGroup;
 			children = (
 				3C12984A17C680DD001C223C /* map.jpg */,
-				3C12984817C67E5B001C223C /* australia.png */,
 				3C12981817C65A6D001C223C /* IMG_0001.JPG */,
 				3CC2D30917C39B0800FD4D87 /* ScenicSpotInfo.plist */,
 				3C2B875317C2543200CE032C /* weather.png */,
@@ -503,7 +500,6 @@
 				3C12984017C679ED001C223C /* pinPurple@2x.png in Resources */,
 				3C12984117C679ED001C223C /* pinRed.png in Resources */,
 				3C12984217C679ED001C223C /* pinRed@2x.png in Resources */,
-				3C12984917C67E5B001C223C /* australia.png in Resources */,
 				3C12984B17C680DD001C223C /* map.jpg in Resources */,
 				3C12989317C79BE8001C223C /* WeatherViewController.xib in Resources */,
 			);
@@ -645,7 +641,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeditationValley/MeditationValley-Prefix.pch";
 				INFOPLIST_FILE = "MeditationValley/MeditationValley-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -659,7 +655,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeditationValley/MeditationValley-Prefix.pch";
 				INFOPLIST_FILE = "MeditationValley/MeditationValley-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
